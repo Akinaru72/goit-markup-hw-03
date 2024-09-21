@@ -216,16 +216,17 @@ border-bottom: 1px solid #e7e9fc;
 
 .main-second-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     background-color: #FFFFFF;
 
                   }
 
  .list-second {
-    display: flex;
+    
     flex-basis: calc ((100% - 3 * 24px) / 4);
    
- flex-basis: calc ((100% - 72px) / 4);
+ 
         }
 
 .main-second-title {
