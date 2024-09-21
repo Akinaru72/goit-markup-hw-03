@@ -215,18 +215,17 @@ border-bottom: 1px solid #e7e9fc;
         }
     
 
-.main-second-list {
+.msul {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - (3 * 24px)) / 4);
-    
+   
     background-color: #FFFFFF;
    
                   }
 
- .list-second {
+ .lisec {
     
-  flex-basis: calc((100% - (3 * 24px)) / 4);
+  flex-basis: calc((100% - 3) * 24px) / 4;
               }
 
 .main-second-title {
