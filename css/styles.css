@@ -217,15 +217,16 @@ border-bottom: 1px solid #e7e9fc;
 
 .main-second-list {
     display: flex;
-    flex-basis: calc ((100% - 3 * 24px) / 4);
     gap: 24px;
+    flex-basis: calc ((100% - 3 * 24px) / 4);
+    
     background-color: #FFFFFF;
    
                   }
 
  .list-second {
     
-    flex-basis: calc ((100% - 3 * 24px) / 4);
+    flex-basis: calc ((100% - 3) * 24px) / 4;
    
  
         }
