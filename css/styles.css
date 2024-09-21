@@ -274,6 +274,7 @@ width: calc((100% - 72px) / 4);
 .main-third-list {
     display: flex;
         gap: 24px;
+        flex-basis: calc ((100% - 3) * 24px) / 4;
     
 }
     .image-third {
@@ -285,10 +286,10 @@ width: calc((100% - 72px) / 4);
 
 .main-third-link{
     border-radius: 0px 0px 4px 4px;
+
         flex-basis: calc ((100% - 3) * 24px) / 4;
         background-color: #FFFFFF;
-    display: flex;
-    gap: 24px;
+    
   
 
    /* width: calc((100% - 72px) / 4) */
