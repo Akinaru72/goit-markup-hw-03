@@ -216,16 +216,15 @@ flex-basis: calc ((100% - 3 * 24px) / 4);
     
 
 .main-second-list {
+    display: flex;
     
+    gap: 24px;
     background-color: #FFFFFF;
     flex-basis: calc ((100% - 3 * 24px) / 4);
 
                   }
 
  .list-second {
-    display: flex;
-    
-        gap: 24px;
     
     flex-basis: calc ((100% - 3 * 24px) / 4);
    
@@ -274,8 +273,6 @@ width: calc((100% - 72px) / 4);
             }
 .main-third-list {
     border-radius: 0px 0px 4px 4px;
-    
-
     flex-basis: calc ((100% - 3) * 24px) / 4;
    
     
@@ -290,7 +287,7 @@ width: calc((100% - 72px) / 4);
 .main-third-link{
     background-color: #FFFFFF;
     display: flex;
-        gap: 24px;
+    gap: 24px;
   
 
    /* width: calc((100% - 72px) / 4) */
