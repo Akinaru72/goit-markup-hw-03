@@ -210,7 +210,11 @@ border-bottom: 1px solid #e7e9fc;
    
                   }
 
-.main-title-three {
+  .link {
+    width: calc((100% - 72px) / 4);
+        }
+
+.main-second-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -219,10 +223,9 @@ border-bottom: 1px solid #e7e9fc;
 
     margin-top: 0px;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
+  
                   }
-
-  .main-second-list > .text {
+  /*.main-second-list > .text {
     margin: 0;
     width: calc((100% - 72px) / 4);
                             }
@@ -248,8 +251,15 @@ border-bottom: 1px solid #e7e9fc;
         padding-bottom: 120px;
             }
 .main-third-list {
-display: flex
+display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
                         }
+    .image-third {
+        display: block;
+        
+        border-radius: 0px 0px 4px 4px;
+    }
 
 .main-third-link{
     background-color: #FFFFFF;
@@ -260,25 +270,26 @@ display: flex
 /*.main-third-link:not(:last-child) {
     margin-right: 24px;
 } */
-  .main-third-link > img {
+ /* .main-third-link > img {
     width: calc((100% - 72px) / 4);
      display: block;
     border-radius: 0px 0px 4px 4px;
-  }
-  .main-title-three {
+  }*/
+ .main-third-title {
       padding-top: 30px;
       margin: 0;
-      margin-bottom: 72px;
+      margin-bottom: 8px;
       text-align: center;
 
       font-weight: 500;
       font-size: 16px;
       line-height: 1.19;
-      text-align: center;
+      
   }
-  .main-third-link > .text {
+  .text-third {
       padding-bottom: 30px;
       margin: 0;
+      text-align: center;
 
       font-size: 16px;
       line-height: 1.19;
@@ -315,11 +326,11 @@ display: flex
         padding-bottom: 120px;
     margin-bottom: 68px;
     }
-        .main-fourth > .main-title-two {
+  .main-fourth > .main-title-two {
             margin: 0;
                 margin-bottom: 72px;
         }
-                                .main-fourth-list{
+       .main-fourth-list{
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
@@ -347,7 +358,7 @@ display: flex
 
 .main-fourth-list>.main-fourth-link>.main-title-three {
     padding-top: 30px;
-    margin: 0;
+   
     margin-bottom: 8px;
 
 
@@ -385,7 +396,10 @@ display: flex
                     justify-content: center;
                     flex-direction: column;
                 }
+.footer > .logo {
 
+margin-bottom: 16px;
+}
 .logo-ftr {
     color: #f4f4fd;
 margin-bottom: 16px;
