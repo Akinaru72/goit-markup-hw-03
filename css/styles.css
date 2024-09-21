@@ -266,13 +266,12 @@ border-bottom: 1px solid #e7e9fc;
 display: flex;
     gap: 24px;
     flex-basis: calc((100% - 3) * 24px) / 4;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    
 }
     .image-third {
         display: block;
         
-        border-radius: 0px 0px 4px 4px;
+       
     }
 
 .main-third-link{
@@ -325,6 +324,8 @@ display: flex;
 
 .contest-third {
     padding: 32px 0;
+    width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -413,11 +414,13 @@ display: flex;
                 }
 
 .logo-ftr {
+    display: inline-block;
     color: #f4f4fd;
 margin-bottom: 16px;
        
           }
                   .logoftr {
+                    display: inline-block;
                       font-family: "Raleway", sans-serif;
                       font-weight: 700;
                       font-size: 18px;
