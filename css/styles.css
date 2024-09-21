@@ -218,7 +218,7 @@ border-bottom: 1px solid #e7e9fc;
 .main-second-list {
     display: flex;
     gap: 24px;
-    
+    flex-basis: calc((100% - (3 * 24px)) / 4);
     
     background-color: #FFFFFF;
    
@@ -226,9 +226,8 @@ border-bottom: 1px solid #e7e9fc;
 
  .list-second {
     
-  width: calc ((100% - 72px) / 4);
- 
-        }
+  flex-basis: calc((100% - (3 * 24px)) / 4);
+              }
 
 .main-second-title {
     font-weight: 500;
@@ -242,25 +241,7 @@ border-bottom: 1px solid #e7e9fc;
    
   
                   }
-  /*.main-second-list > .text {
-    margin: 0;
-    width: calc((100% - 72px) / 4);
-                            }
-
-  .link {
-    width: calc((100% - 72px) / 4);
-
-   }
-  /* .link:not(:last-child) {
-       margin-right: 10px;
-   }*/
-/*.contest-second {
-width: calc((100% - 72px) / 4);
-}*/
-
-
-
-
+ 
    /*main-3*/
 
 .main-third {
