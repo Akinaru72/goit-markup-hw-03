@@ -197,7 +197,7 @@ border-bottom: 1px solid #e7e9fc;
 .main-second {
     padding: 120px 0;
    /* margin-bottom: 120px;*/
-flex-basis: calc ((100% - 3 * 24px) / 4);
+
              }
 
 
@@ -217,11 +217,10 @@ flex-basis: calc ((100% - 3 * 24px) / 4);
 
 .main-second-list {
     display: flex;
-    
+    flex-basis: calc ((100% - 3 * 24px) / 4);
     gap: 24px;
     background-color: #FFFFFF;
-    flex-basis: calc ((100% - 3 * 24px) / 4);
-
+   
                   }
 
  .list-second {
