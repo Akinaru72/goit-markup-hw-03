@@ -196,8 +196,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .main-second {
     padding: 120px 0;
-   /* margin-bottom: 120px;*/
-
+   
              }
 
 
@@ -225,7 +224,7 @@ border-bottom: 1px solid #e7e9fc;
                   }
 
  .lisec {
-flex-basis: calc((100% - 72px) / 4)
+flex-basis: calc (( 100% - 72px) / 4);
   
               }
 
