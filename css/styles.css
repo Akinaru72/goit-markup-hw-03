@@ -224,19 +224,18 @@ body {
 .main-third {
     background: #f4f4fd;
     padding-top: 120px;
-    padding-bottom: 120px;
+        padding-bottom: 120px;
         
             }
-
 .main-third-list {
     display: flex;
         gap: 24px;
-      /*  flex-basis: calc ((100% - 3) * 24px) / 4;*/
+        flex-basis: calc ((100% - 3) * 24px) / 4;
     
 }
     .image-third {
         display: block;
-      /*  border-radius: 0px 0px 4px 4px;*/
+        border-radius: 0px 0px 4px 4px;
         
        
     }
@@ -244,7 +243,7 @@ body {
 .main-third-link{
     border-radius: 0px 0px 4px 4px;
 
-        flex-basis: calc ((100% - 72px) / 4;
+        flex-basis: calc ((100% - 3) * 24px) / 4;
         background-color: #FFFFFF;
     
   
@@ -316,43 +315,57 @@ body {
 
 .main-fourth{
     padding-top: 120px;
-    padding-bottom: 120px;
-            }
+        padding-bottom: 120px;
+   
+    }
+  .main-fourth > .main-title-two {
+            margin: 0;
+                margin-bottom: 72px;
+        }
+       .main-fourth-list{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    column-gap: 24px;
+                    row-gap: 48px;
+                }
+                                                                
+       
+             
+              
+                     .main-fourth-list{
+                        background-color: #FFFFFF;
 
-.main-fourth > .main-title-two {
-    margin: 0;
-    margin-bottom: 72px;
-                               }
-.main-fourth-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 48px;
-                 }
-                                                            .main-fourth-list {
-    background-color: #FFFFFF;
-                  }
+                     }
+        .main-fourth-link > img {
+            display: block;
+        }
 
-.main-fourth-link > img {
-    display: block;
-                        }
-
-.contest-fourh {
+  .contest-fourh {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-               }
+   
+  }
 
 .main-title-three {
     margin: 0;
+   
     margin-bottom: 8px;
+
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.19;
-                  }
+    
+}
+
+
+
+
 
 .text {
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -361,40 +374,49 @@ body {
     margin: 0;
       }
 
-      /* footer */
 
+
+      /* footer */
 .footer {
     background-color: #2e2f42;
+
+  /*  display: inline-block;*/
+
     padding: 100px 0;
         }
 
 .footer > .container {
                     /*display: inline-block;*/
-                     }
+                  
+                }
 
 .logo-ftr {
+   /* display: inline-block;*/
     color: #f4f4fd;
-    margin-bottom: 16px;
+margin-bottom: 16px;
+       
           }
+                  .logoftr {
+                    display: inline-block;
+                      font-family: "Raleway", sans-serif;
+                      font-weight: 700;
+                      font-size: 18px;
+                      line-height: 1.17;
+                      letter-spacing: 0.03em;
+                      text-transform: uppercase;
+                      text-decoration: none;
+                      color: #4d5ae5;
 
-.logoftr {
-    display: inline-block;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #4d5ae5;
-    margin-bottom: 16px;
-         }
+                    margin-bottom: 16px;
+                    }
  
 .text-ftr {
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     width: 264px;
     margin: 0;
+    
           }
