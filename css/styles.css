@@ -282,6 +282,7 @@ body {
 }
 
 .page-footer .logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 /* ==============end footer================ */
