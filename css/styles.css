@@ -115,11 +115,9 @@ body {
 /* ==========end header=============== */
 
 /* ============section hero=========== */
-.main-hero {
-  background: #2e2f42;
-}
-
 .main-hero .container {
+  max-width: 1440px;
+  background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -263,17 +261,12 @@ body {
 
 /* ==============end portfolio============ */
 /* =================footer================ */
-.page-footer {
-  background: #2e2f42;
-}
 .page-footer .container {
+  background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 156px;
-}
-
-.page-footer .logo {
-  color: #f4f4fd;
+  max-width: 1440px;
 }
 
 .page-footer .main-text {
@@ -282,7 +275,8 @@ body {
 }
 
 .page-footer .logo {
-  display: inline-block;
+  color: #f4f4fd;
+  display: block;
   margin-bottom: 16px;
 }
 /* ==============end footer================ */
