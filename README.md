@@ -52,33 +52,13 @@ Set up GitHub Pages and add a link to the live page in the **About** section of 
 }
 ```
 
----
-
-## C — Visual Design & Flexbox
-
-- **C1** — Styling uses class selectors only.
-- **C2** — No `!important` in styles.
-- **C3** — Interactive elements (buttons and links) have active states on hover and focus, as per style guide.
-- **C4** — Header contact text changes color on hover and focus.
-- **C5** — `font-family` on `<body>` uses dominant font from layout (Roboto).
-- **C6** — Alternative fonts and fallback sans-serif declared at the end of `font-family`.
-- **C7** — Roboto font-family explicitly declared only on `<body>`, other elements inherit.
-- **C8** — `<body>` text color set to dominant color from layout; other text inherits or overrides this.
-- **C9** — Font-size of all text elements matches layout exactly.
-- **C10** — Line-height of all text elements matches layout and set as a multiplier, not in px.
-- **C11** — Colors (`color` and `background-color`) match layout exactly.
-- **C12** — Font-weight matches layout; explicitly set only if different from browser default.
-- **C13** — Buttons have `cursor: pointer`.
-- **C14** — Styles do not repeat browser default values (e.g., no need for `cursor: pointer` on links or `font-weight: 400` on paragraphs).
+- **B17** — Cards in the "Our Portfolio" section have a border only at the bottom
 
 ---
 
 ## Resources
 
-- [Squoosh](https://squoosh.app/) — image optimization
 - [Code Guide](https://codeguide.co/) — coding style guide
-- [W3C Validator](https://validator.w3.org/nu/#textarea) — HTML validation
-- [modern-normalize](https://github.com/sindresorhus/modern-normalize) — CSS normalization
 
 ---
 
