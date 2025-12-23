@@ -2,12 +2,9 @@
 
 - Створи репозиторій **goit-markup-hw-03**.
 - Склонуй створений репозиторій і скопіюй у нього файли попередньої роботи.
-- Додай стилі для геометрії (ширину, відступи, поля і рамки).
-- Реалізуй позиціонування контенту за допомогою **Flexbox** відповідно до макета.
-- Налаштуй **GitHub Pages** і додай посилання на живу сторінку в секцію **About** GitHub-репозиторія.
+- Додай стилі для геометрії (ширину, відступи, поля і рамки) і позиціонування контенту за допомогою **Flexbox** для сторінок макета **[домашнього завдання #3](<https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=302815-2553&mode=design&t=HqslgV0OjDOknzIj-0>)**
 
-Макет виконаний для **домашнього завдання №3**  
-**[Web Studio (Version 5.0)](<https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=302815-2553&mode=design&t=HqslgV0OjDOknzIj-0>)**
+- Налаштуй **GitHub Pages** і додай посилання на живу сторінку в секцію **About** GitHub-репозиторія.
 
 ---
 
@@ -19,8 +16,7 @@
 - **A4** — У назвах файлів немає великих літер, пробілів і трансліту — тільки малі англійські літери.
 - **A5** — Вихідний код відформатований за допомогою **Prettier**.
 - **A6** — Всі зображення та текстовий контент взяті з макета.
-- **A7** — Підключений нормалізатор стилів  
-  **[modern-normalize](https://github.com/sindresorhus/modern-normalize)**.
+- **A7** — Підключений нормалізатор стилів **[modern-normalize](https://github.com/sindresorhus/modern-normalize)**.
 - **A8** — Код написаний з дотриманням рекомендацій  
   **[Code Guide](https://codeguide.co/)**.
 
@@ -71,5 +67,5 @@
 
 ---
 
-**Жива сторінка:**  
-[GitHub Pages](<(<https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=302815-2553&mode=design&t=HqslgV0OjDOknzIj-0>)>)
+**Жива сторінка:  
+[GitHub Pages](<https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=302815-2553&mode=design&t=HqslgV0OjDOknzIj-0>)**
