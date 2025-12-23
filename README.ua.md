@@ -17,8 +17,7 @@
 - **A5** — Вихідний код відформатований за допомогою **Prettier**.
 - **A6** — Всі зображення та текстовий контент взяті з макета.
 - **A7** — Підключений нормалізатор стилів **[modern-normalize](https://github.com/sindresorhus/modern-normalize)**.
-- **A8** — Код написаний з дотриманням рекомендацій  
-  **[Code Guide](https://codeguide.co/)**.
+- **A8** — Код написаний з дотриманням рекомендацій **[Code Guide](https://codeguide.co/)**.
 
 ---
 
@@ -67,5 +66,4 @@
 
 ---
 
-**Жива сторінка:  
-[GitHub Pages](<https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=302815-2553&mode=design&t=HqslgV0OjDOknzIj-0>)**
+**Жива сторінка: [GitHub Pages](https://akinaru72.github.io/goit-markup-hw-03/)**
